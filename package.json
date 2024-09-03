@@ -1,0 +1,41 @@
+{
+  "name": "favorite-icon-video",
+  "version": "2.3.1",
+  "description": "A small library for video manipulating desktop favicon",
+  "main": "dist/index.common.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "author": {
+    "name": "Denis Seleznev",
+    "email": "hcodes@yandex.ru",
+    "url": "https://github.com/favorite-icon/favorite-icon-video"
+  },
+  "license": "MIT",
+  "keywords": [
+    "favorite icon",
+    "favicon",
+    "favico",
+    "video",
+    "video favicon"
+  ],
+  "scripts": {
+    "test": "npm run typecheck",
+    "build": "rollup --config rollup.config.mjs",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "favorite-icon": "^1.1.0",
+    "rollup": "^4.21.2",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  }
+}
