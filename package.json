@@ -1,6 +1,6 @@
 {
   "name": "favorite-icon-video",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "A small library for video manipulating desktop favicon",
   "main": "dist/index.common.js",
   "module": "dist/index.esm.js",
@@ -9,6 +9,10 @@
     "name": "Denis Seleznev",
     "email": "hcodes@yandex.ru",
     "url": "https://github.com/favorite-icon/favorite-icon-video"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/favorite-icon/favorite-icon-video.git"
   },
   "license": "MIT",
   "keywords": [
